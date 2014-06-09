@@ -33,17 +33,22 @@ rebond
 Lorsque l’élément rebondit, celui-ci change de couleur et revient ensuite à sa couleur initiale lorsque le rebond est terminé. Pour changer la couleur lors du rebond, allez dans la feuille de style (style.css) et changer le background-color à la couleur de votre choix. **Ne pas oublier de faire aussi les changements dans les keyframes avec préfixes.
 
 @keyframes rebond
+
 {
+	
 	0% {
 		transform:translateY(0px) scale(1.1, 0.8) ;	
 	}
+	
 	50% {
 		transform:translateY(-200px) scale(0.8, 1.1);
 		background-color:#F00;	
 	}
+	
 	100% {
 		transform:translateY(0px) scale(1.1, 0.8) ;	
 	}
+
 }
 
 file_rotate
