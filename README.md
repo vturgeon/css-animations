@@ -26,6 +26,7 @@ Propriétés spécifiques à changer sur quelques animations :
 
 rebond
 Lorsque l’élément rebondit, celui-ci change de couleur et revient ensuite à sa couleur initiale lorsque le rebond est terminé. Pour changer la couleur lors du rebond, allez dans la feuille de style (style.css) et changer le background-color à la couleur de votre choix. **Ne pas oublier de faire aussi les changements dans les keyframes avec préfixes.
+
 @keyframes rebond{
 	0% {
 		transform:translateY(0px) scale(1.1, 0.8) ;	
@@ -37,7 +38,7 @@ Lorsque l’élément rebondit, celui-ci change de couleur et revient ensuite à
 	100% {
 		transform:translateY(0px) scale(1.1, 0.8) ;	
 	}
-}
+		}
 
 file_rotate
 Pour faire tourner l’élément dans le sens contraire des aiguilles d’une montre, allez dans la feuille de style (style.css) et changer la propriété rotate au keyframe 100% en valeur négative (par exemple : transform:translate(300px, -100px) rotate(-180deg) scale(1.5, 1.5);. **Ne pas oublier de faire aussi les changements dans les keyframes avec préfixes.
