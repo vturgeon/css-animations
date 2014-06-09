@@ -54,48 +54,67 @@ Lorsque l’élément rebondit, celui-ci change de couleur et revient ensuite à
 file_rotate
 Pour faire tourner l’élément dans le sens contraire des aiguilles d’une montre, allez dans la feuille de style (style.css) et changer la propriété rotate au keyframe 100% en valeur négative (par exemple : transform:translate(300px, -100px) rotate(-180deg) scale(1.5, 1.5);. **Ne pas oublier de faire aussi les changements dans les keyframes avec préfixes.
 
-@keyframes file_rotate{
+@keyframes file_rotate
+
+{
+	
 	0% {
 		transform:translate(0px, 0px) rotate(0deg);	
 	}
+	
 	30% {
 		transform:translate(300px, -100px) rotate(0deg) scale(1, 1);
 	}
+	
 	100% {
 		transform:translate(300px, -100px) rotate(180deg) scale(1.5, 1.5);	
 	}
+
 }
 
 pulse_shadow
 Pour changer la couleur de l’ombre, allez dans la feuille de style (style.css) et changez le box-shadow à la couleur de votre choix. Pour changer la couleur du pulse, changez le background-color à la couleur de votre choix. **Ne pas oublier de faire aussi les changements dans les keyframes avec préfixes.
-@keyframes pulse_shadow{
+@keyframes pulse_shadow
+
+{
+	
 	0, 100% {
 		transform:scale(1,1);
 		box-shadow: 0px 0px 0px #000;
+	
 	50% {
 		transform:scale(1.1,1.1);
 		box-shadow: 0px 0px 15px #000;
 		background-color:#00C;
 	}
+
 }
 
 rotate_disparition
 Pour faire tourner l’élément dans le sens contraire des aiguilles d’une montre, allez dans la feuille de style (style.css) et changer la propriété rotate au keyframe 33.3%, 66.6% et 100%  en valeur négative (par exemple : transform:rotate(-360deg) scale(1, 1); ).
-@keyframes rotate_disparition{
+
+@keyframes rotate_disparition
+
+{
+	
 	0% {
 		transform:rotate(0deg) scale(0, 0);
 		opacity:1;
 	}
+	
 	33.3% {
 		transform:rotate(360deg) scale(1, 1);
 		opacity:1;
 	}
+	
 	66.6%{
 		transform:rotate(360deg) scale(1, 1);
 		opacity:1;
 	}
+	
 	100%{
 		transform:rotate(360deg) scale(1, 1);
 		opacity:0;
 	}
+
 }
