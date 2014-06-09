@@ -3,10 +3,15 @@ Animations créées dans le cadre du cours de technique d'animations
 Read me
 
 Liste des animations :
+
 rebond
+
 arrivee_depart
+
 file_rotate
+
 pulse_shadow
+
 rotate_disparition
 
 Guide d’installation :
