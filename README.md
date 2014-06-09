@@ -16,7 +16,7 @@ rotate_disparition
 
 Guide d’installation :
 
-Pour utiliser les animations dans votre site web, simplement « dropper » la feuille de style (style.css) dans la section <head> de votre fichier HTML. Ajouter ensuite la classe animation à un élément suivi de la classe portant le nom de l’animation voulue (par exemple class = "animation rebond".
+Pour utiliser les animations dans votre site web, simplement « dropper » la feuille de style (style.css) dans la section head de votre fichier HTML. Ajouter ensuite la classe animation à un élément suivi de la classe portant le nom de l’animation voulue (par exemple class = "animation rebond".
 
 Changer le temps et le délai :
 
